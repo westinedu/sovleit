@@ -28,3 +28,9 @@ handlers:
 
 - url: /.*
   script: djangoappengine.main.application
+  
+- url: /s/.*
+  script: handlers.service.application
+  
+- url: /m/.*
+  script: handlers.main.application
