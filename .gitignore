@@ -1,4 +1,4 @@
+*.swp
+*.pyc
+.hg*
 
-*.pyc
-*.pyc
-*.pyc
